@@ -13,6 +13,10 @@ input {
     color: black;
 }
 
+.row-cards-movie .card {
+    height: 350px;
+}
+
 .row-cards-movie .card img {
     width: 100px;
 }
@@ -25,3 +29,16 @@ input {
 .row-cards-movie .card-body p{
     font-size: .9rem;
 }
+
+
+.comment-body {
+    display: none;
+}
+
+.card-content:hover .card-content-body{
+    display: none;
+}
+
+.card-content:hover .comment-body{
+    display:block;
+} 

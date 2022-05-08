@@ -1,4 +1,7 @@
-<?php include '../model/Content.php' ?>
+<?php 
+    /* include file that creates the classes's obj */
+    include '../model/Content.php'
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +43,7 @@
                             <input id="input-img-cover" type="text" name="cover" placeholder="content type">
                         </div>
                         <!-- comment -->
-                        <!-- <h1 class="mb-2">Insert your comment</h1>
+                        <h1 class="mb-2">Insert your comment</h1>
                         <div class="d-flex justify-content-between mb-2">
                             <label for="input-username">Username</label>
                             <input id="input-username" type="text" name="username" placeholder="username">
@@ -53,7 +56,7 @@
                         <div class="d-flex flex-column mb-2">
                             <label for="input-comment mb-1">Comment</label>
                             <textarea id="input-comment" name="comment"  cols="30" rows="10"></textarea>
-                        </div> -->
+                        </div> 
                         <button type="submit">Load Movie!</button>
                     </form>
                 </div>
