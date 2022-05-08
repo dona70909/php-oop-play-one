@@ -1,44 +1,7 @@
 main {
     background-color: rgb(39, 39, 39);
-    height: 100vh;
     color: rgb(187, 53, 53);
 }
 
-input {
-    width: 300px;
-}
-
-.row-cards-movie {
-    gap: 1rem;
-    color: black;
-}
-
-/* .row-cards-movie .card {
-    height: 350px;
-} */
-
-.row-cards-movie .card img {
-    width: 100px;
-}
-
-.row-cards-movie .card-body h5{
-    margin: 0;
-    font-size: 1rem;
-}
-
-.row-cards-movie .card-body p{
-    font-size: .9rem;
-}
 
 
-.comment-body {
-    display: none;
-}
-
-.card-content:hover .card-content-body{
-    display: none;
-}
-
-.card-content:hover .comment-body{
-    display:block;
-} 
