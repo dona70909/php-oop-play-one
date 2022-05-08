@@ -1,0 +1,18 @@
+main {
+    background-color: rgb(39, 39, 39);
+    height: 100vh;
+    color: rgb(187, 53, 53);
+}
+
+input {
+    width: 300px;
+}
+
+.row-cards-movie {
+    gap: 1rem;
+    color: black;
+}
+
+.row-cards-movie .card img {
+    width: 100px;
+}
